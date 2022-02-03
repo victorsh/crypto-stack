@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Victor Shahbazian",
+  "license": "",
+  "dependencies": {
+    "mathjs": "^9.4.5",
+    "mongodb": "^4.1.2",
+    "technicalindicators": "^3.1.0",
+    "tinker-bot-commons": "file:../commons"
+  }
+}

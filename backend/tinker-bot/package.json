@@ -1,0 +1,26 @@
+{
+  "name": "tinker-bot",
+  "version": "1.0.0",
+  "description": "some sort of trading bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tinker-bot",
+    "trading-bot",
+    "crypto-bot",
+    "crypto-currency-bot"
+  ],
+  "author": "Victor Shahbazian",
+  "license": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tinker-bot-commons": "file:../commons",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

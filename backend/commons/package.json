@@ -1,0 +1,26 @@
+{
+  "name": "tinker-bot-commons",
+  "version": "1.0.0",
+  "description": "Common scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tinker-bot-commons"
+  ],
+  "author": "Victor Shahbazian",
+  "license": "mit",
+  "dependencies": {
+    "async-await-retry": "^1.2.3",
+    "ccxt": "^1.56.89",
+    "decimal.js": "^10.3.1",
+    "ipfs": "^0.59.0",
+    "mongodb": "^4.1.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "axios": "^0.21.4"
+  }
+}

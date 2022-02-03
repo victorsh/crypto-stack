@@ -1,0 +1,16 @@
+**/node_modules
+**/DS_Store
+
+blockchain/solidity/artifacts
+blockchain/solidity/cache
+blockchain/solidity/.env
+
+client/dist
+client/.env
+
+backend/.env
+backend/commons/config/api-keys.js
+
+holdings.md
+
+.DS_Store
